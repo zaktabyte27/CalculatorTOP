@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shadow{
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+
+.displayUpper{
+    display: flex;
+    justify-content: right;
+    font-size: 15px;
+    color: gray;
+    width: 262px;
+    height: 20px;
+
+}
+
+.displayLower{
+    display: flex;
+    font-size: 24px;
+    color: black;
+    width:262px;
+    height: 45px;
+    align-items: center;
+    justify-content: right;
+}
+
+#displayBox{
+    flex-direction: column;
+    width: 262px;
+    height: 75px;
+    display: flex;
+    padding: 12px;
+    border-radius: 12px;
+    border-style: solid;
+    margin-left: 15px;
+    background-color: lightgray;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background-color: rgb(40, 40, 43)  ;
+    width: 320px;
+    height: auto;
+    padding: 12px;
+    border-radius: 12px;
+    border-style: solid;
+}
+
+.clear, .delete{
+    display: flex;
+    width: 170px;
+    height: 75px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border-style: solid;
+    margin: 4px;
+    background-color: lightcoral;
+    border-width: thin;
+    font-size:large;
+}
+
+.row, .clearDelete{
+    display: flex;
+    flex-direction: row;
+    width:300px;
+    height:75px;
+    padding: 10px;
+    text-align: center;
+}
+
+.number, .operator, .equals{
+    border-radius: 50%;
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+    background-color: #7E7E7E    ;
+    display: flex;
+    width: 75px;
+    margin: 3px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
